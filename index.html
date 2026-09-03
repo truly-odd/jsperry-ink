@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official website of J. Sperry, author.">
+  <title>J. Sperry | Author</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">J. SPERRY</a>
+    <nav aria-label="Primary navigation">
+      <a href="#books">Books</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">AUTHOR</p>
+        <h1>J. Sperry</h1>
+        <p class="lead">Stories from strange worlds, dark corners, and the stubborn human heart.</p>
+        <a class="button" href="#books">Explore the work</a>
+      </div>
+      <div class="hero-mark" aria-hidden="true"><span>JS</span></div>
+    </section>
+
+    <section id="books" class="section">
+      <p class="eyebrow">BOOKS</p>
+      <div class="book-card">
+        <div class="book-art" aria-hidden="true"><span>J.<br>SPERRY</span></div>
+        <div class="book-copy">
+          <h2>Books</h2>
+          <p class="book-kicker">Stories are on the way.</p>
+          <p>This space will become the home for J. Sperry's novels, stories, excerpts, and release news.</p>
+          <p class="status">More information coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section narrow">
+      <p class="eyebrow">ABOUT</p>
+      <h2>About J. Sperry</h2>
+      <p>J. Sperry writes speculative fiction with a taste for strange worlds, human resilience, dark humor, and the places where wonder and fear overlap.</p>
+    </section>
+
+    <section id="contact" class="section narrow contact">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Get in touch</h2>
+      <p>Your author email will live here once it is ready.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> J. Sperry</span>
+    <span>jsperry.ink</span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
