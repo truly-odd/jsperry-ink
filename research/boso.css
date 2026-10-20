@@ -18,10 +18,10 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 /* BOSO research identity: neon emblem is a page-specific mark, not a substitute for the paper. */
-.paper-hero-layout{display:grid;grid-template-columns:clamp(180px,20vw,240px) minmax(0,1fr);gap:clamp(26px,4vw,58px);align-items:center}
-.paper-hero-emblem{display:block;position:relative;z-index:1;max-width:240px;line-height:0}
-.paper-hero-emblem img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;filter:drop-shadow(0 0 15px rgba(0,225,255,.17)) drop-shadow(0 0 17px rgba(255,20,215,.15))}
+.paper-hero-layout{display:grid;grid-template-columns:180px minmax(0,1fr);gap:36px;align-items:center}
+.paper-hero-emblem{display:block;position:relative;z-index:1;width:180px;max-width:100%;line-height:0}
+.paper-hero-emblem img{display:block;width:180px;max-width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;filter:drop-shadow(0 0 15px rgba(0,225,255,.17)) drop-shadow(0 0 17px rgba(255,20,215,.15))}
 .paper-hero-copy{position:relative;z-index:1;min-width:0}
 .paper-hero-copy .paper-kicker{overflow-wrap:anywhere}
-@media(max-width:790px){.paper-hero-layout{grid-template-columns:1fr;gap:19px}.paper-hero-emblem{width:min(42vw,195px)}}
-@media(max-width:480px){.paper-hero-emblem{width:min(40vw,150px)}.paper-hero-copy .paper-kicker{font-size:9px}}
+@media(max-width:790px){.paper-hero-layout{grid-template-columns:1fr;gap:19px}.paper-hero-emblem{width:150px}.paper-hero-emblem img{width:150px}}
+@media(max-width:480px){.paper-hero-emblem,.paper-hero-emblem img{width:132px}.paper-hero-copy .paper-kicker{font-size:9px}}
