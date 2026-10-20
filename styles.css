@@ -172,3 +172,69 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 @media(max-width:650px){.family-tree-gallery-inner{padding:57px 20px 65px}.family-tree-gallery-inner>p{font-size:13px}.lumen-branch-inner{padding:54px 20px}.lab-project-showcase .project-card{grid-template-columns:60px 1fr;gap:0 11px}.lab-project-showcase .project-card h3{font-size:24px}.lab-project-showcase .project-monogram,.lab-project-showcase .project-monogram img{width:60px;height:60px}.family-tree-topline{gap:6px}.llm-branch-art figcaption,.auri-lineage-art figcaption{font-size:9px}}
 
 @media(max-width:480px){.auri-context-panel{padding:25px 21px}.auri-context-label{margin-bottom:20px}.auri-context-panel h3{font-size:31px;margin-bottom:20px}.auri-context-panel>p:not(.auri-context-label){font-size:13px}}
+
+/* Shared neon harmony, October 2026. Cyan + magenta, true black and
+   readable text; individual Auri, LLM and Lumen artwork colors remain. */
+:root{--neon-cyan:#55ebff;--neon-pink:#ff65d9;--neon-edge:rgba(85,235,255,.32);--neon-rose:rgba(255,101,217,.34)}
+body{background:#000;color:#f3f5fa}
+a:focus-visible,button:focus-visible{outline:2px solid var(--neon-cyan);outline-offset:4px}
+.site-header{border-bottom-color:rgba(85,235,255,.23)}
+.brand-plus,.hero-period,.footer-logo span{color:var(--neon-pink)}
+.nav a:hover,.nav a:focus-visible{color:var(--neon-cyan)}
+.nav a.nav-special{color:var(--neon-pink);border-color:var(--neon-rose)}
+.nav a.nav-special:hover{border-color:var(--neon-cyan);color:var(--neon-cyan)}
+.bio-hero .pill{background:rgba(5,34,42,.3);border-color:var(--neon-edge);color:#d1f8ff}
+.bio-hero .pill-dot{background:var(--neon-cyan);box-shadow:0 0 13px rgba(85,235,255,.7)}
+.bio-hero .hero-overline{color:var(--neon-cyan)}
+.bio-hero .hero-overline span{color:var(--neon-pink)}
+.bio-hero h1 em{color:var(--neon-cyan);text-shadow:0 0 32px rgba(85,235,255,.15)}
+.bio-hero .hero-period{color:var(--neon-pink)}
+.bio-hero .btn-primary,.connect .btn-primary{background:var(--neon-pink);border-color:var(--neon-pink);color:#120015}
+.bio-hero .btn-primary:hover,.connect .btn-primary:hover{background:#ffa0ed}
+.bio-hero .btn-outline{border-color:var(--neon-edge);color:#d5f9ff}
+.bio-hero .btn-outline:hover{border-color:var(--neon-pink)}
+.bio-art-label{color:#bceff7}
+.bio-art-label-top{border-left-color:var(--neon-cyan)}
+.ticker{border-color:rgba(85,235,255,.2)}
+.ticker-track{color:#b9e7ec}
+.ticker-track span{color:var(--neon-pink)}
+.lab{border-color:rgba(85,235,255,.26)}
+.lab .lab-index,.lab-ident .plus,.lab-art-tag{color:var(--neon-cyan)}
+.lab h2 em{color:var(--neon-pink)}
+.lab-project-showcase .project-card{border-color:rgba(85,235,255,.30);background:linear-gradient(145deg,rgba(8,38,45,.55),rgba(22,10,29,.6))}
+.lab-project-showcase .lyra-card{border-color:rgba(161,121,252,.42)}
+.lab-project-showcase .aven-card{border-color:rgba(255,201,95,.48);background:linear-gradient(145deg,rgba(39,27,12,.52),rgba(19,13,31,.60))}
+.project-id,.project-meta{color:#b6e4ec}
+.lab-footer strong,.lab-icon{color:var(--neon-cyan)}
+.research-feature{border-color:var(--neon-edge);background:linear-gradient(140deg,rgba(6,34,43,.48),rgba(20,8,30,.65));box-shadow:0 0 35px rgba(85,235,255,.05)}
+.research-feature-kicker{color:var(--neon-cyan)}
+.research-feature h3 em{color:var(--neon-pink)}
+.research-feature-meta{color:#d0c4e2}
+.research-feature-link{background:var(--neon-pink);color:#150015}
+.research-feature-link:hover,.research-feature-link:focus-visible{background:#ff9ce9}
+.family-tree-gallery{border-color:rgba(85,235,255,.24)}
+.family-tree-topline{border-top-color:var(--neon-edge);color:#b3f1fc}
+.family-tree-gallery h2 em{color:var(--neon-pink)}
+.family-tree-study-link{color:var(--neon-cyan)}
+.family-tree-centerpiece{border-color:var(--neon-edge);box-shadow:0 0 45px rgba(85,235,255,.14),0 0 28px rgba(255,101,217,.06)}
+.auri-study{border-color:rgba(85,235,255,.21)}
+.auri-study-index{border-top-color:var(--neon-edge)}
+.auri-study-index span:first-child,.auri-study-eyebrow{color:var(--neon-cyan)}
+.auri-study h2 em{color:var(--neon-pink)}
+.auri-study-question{background:#140915;border-left-color:var(--neon-pink)}
+.auri-study-pencil{color:var(--neon-pink)}
+.auri-context-panel{border-color:rgba(85,235,255,.27);background:linear-gradient(157deg,#08171b,#0d0914 85%)}
+.auri-context-label{color:#a8fbb5}
+.auri-context-panel h3 span{color:var(--neon-pink)}
+.auri-study-bottom a{color:var(--neon-cyan)}
+.auri-study-bottom a:hover{color:#fff}
+.section-index,.section-index span{color:var(--neon-cyan)}
+.stories .story-info .tag{border-color:var(--neon-rose);color:var(--neon-pink)}
+.stories .text-link{color:var(--neon-cyan)}
+.stories .margin-note{border-color:var(--neon-rose);background:linear-gradient(160deg,#150c1b,#080d16)}
+.about-underline{color:var(--neon-cyan);border-top-color:var(--neon-edge)}
+.connect{border-color:var(--neon-edge);background:#000}
+.connect h2 em{color:var(--neon-pink)}
+.footer{border-top:1px solid rgba(85,235,255,.22)}
+.footer-right a{color:var(--neon-cyan)}
+@media(max-width:780px){.nav{background:#000;border-bottom-color:var(--neon-edge)}.menu-toggle span{background:var(--neon-cyan)}}

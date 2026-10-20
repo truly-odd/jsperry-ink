@@ -25,3 +25,42 @@
 .paper-hero-copy .paper-kicker{overflow-wrap:anywhere}
 @media(max-width:790px){.paper-hero-layout{grid-template-columns:1fr;gap:19px}.paper-hero-emblem{width:150px}.paper-hero-emblem img{width:150px}}
 @media(max-width:480px){.paper-hero-emblem,.paper-hero-emblem img{width:132px}.paper-hero-copy .paper-kicker{font-size:9px}}
+
+/* Shared neon harmony, October 2026: BOSO research edition.
+   Reading text stays light; scientific qualifiers and content are unchanged. */
+:root{--white:#f6f8ff;--muted:#c2cfde;--line:rgba(85,235,255,.27);--violet:#ff65d9;--neon-cyan:#55ebff;--neon-pink:#ff65d9}
+body{background:#000;color:var(--white)}
+a:focus-visible{outline-color:var(--neon-cyan)}
+.paper-site-header{border-bottom-color:var(--line)}
+.paper-brand img{filter:drop-shadow(0 0 9px rgba(85,235,255,.33)) drop-shadow(0 0 8px rgba(255,101,217,.2))}
+.paper-brand span{color:#b9cedc}
+.paper-nav a{color:#c8d9e8}
+.paper-nav a:hover,.paper-nav a:focus-visible{color:var(--neon-cyan)}
+.paper-hero:after{background:radial-gradient(circle,rgba(255,101,217,.085),rgba(85,235,255,.04) 35%,transparent 73%)}
+.paper-kicker{color:var(--neon-cyan)}
+.paper-status{color:var(--neon-pink)}
+.paper-hero h1 span{color:var(--neon-pink);text-shadow:0 0 27px rgba(255,101,217,.17)}
+.paper-subtitle{color:#d8faff}
+.paper-hero p{color:#c7d6e5}
+.paper-byline{color:#f5f8ff!important}
+.paper-details{border-top-color:var(--line)}
+.paper-details div{color:#c6d2df}
+.paper-details strong{color:var(--neon-cyan)}
+.paper-action{border-color:rgba(85,235,255,.45);color:#c5faff}
+.paper-action:hover,.paper-action:focus-visible{border-color:var(--neon-pink);background:rgba(255,101,217,.13);color:#fff}
+.paper-toc{border-color:var(--line);background:#050c12}
+.paper-toc-title{color:var(--neon-cyan)}
+.paper-toc a{color:#beccdc}
+.paper-toc a:hover,.paper-toc a:focus-visible{color:var(--neon-pink)}
+.paper-note{background:#07151b;border-left-color:var(--neon-cyan);color:#d6e9f4}
+.paper-body{color:#d5e0ec}
+.paper-body>h2{color:#f0faff;border-top-color:var(--line)}
+.paper-body h3{color:var(--neon-pink)}
+.paper-body strong{color:#f3f9ff}
+.paper-body em{color:#f1c0f1}
+.paper-body code{background:#071f29;color:#cffaff}
+.paper-body blockquote{border-left-color:var(--neon-pink);color:#f4d5f2}
+.paper-body #abstract + p{color:#e6f2fd}
+.paper-footer{border-top-color:var(--line);color:#abbfcd}
+.paper-footer a{color:var(--neon-cyan)}
+.paper-hero-emblem img{filter:drop-shadow(0 0 13px rgba(85,235,255,.18)) drop-shadow(0 0 15px rgba(255,101,217,.15))}
