@@ -2,7 +2,7 @@
 ## Unified Working Research Framework
 
 **Consolidated working draft:** October 14, 2026  
-**Primary concept author:** J. Sperry  
+**Primary concept author:** Joseph L. Sperry  
 **Research context:** Project Solaris and associated collaborative analysis  
 **Document status:** Editorial consolidation for author review; not a declaration of completed validation  
 **Source chronology:** Foundational BOSO concept snapshot (date unspecified); BOSO Framework v0.1 (October 3, 2026); research corrections and clarifications (October 11–12, 2026)
