@@ -70,3 +70,14 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
   .project-grid { grid-template-columns:1fr; }
   .aven-card { grid-column:auto; }
 }
+
+/* First publication in the BIO+SYNTH research archive. */
+.research-feature{margin-top:46px;padding:30px 34px;border:1px solid rgba(191,134,245,.35);background:linear-gradient(140deg,rgba(30,19,42,.88),rgba(7,7,12,.96));scroll-margin-top:18px}
+.research-feature-kicker,.research-feature-meta{font:600 10px/1.7 'DM Mono',monospace;letter-spacing:.10em;color:#bda0dc}
+.research-feature-content{display:flex;justify-content:space-between;align-items:end;gap:30px}
+.research-feature h3{font:400 clamp(28px,3.1vw,42px)/1.2 'Playfair Display',Georgia,serif;letter-spacing:-.03em;margin:18px 0 12px}
+.research-feature h3 em{color:#cc9bfa;font-weight:400}
+.research-feature p{max-width:690px;color:#bfb6c9;font-size:14px;line-height:1.75;margin:0 0 14px}
+.research-feature-link{display:inline-flex;align-items:center;gap:15px;flex-shrink:0;text-decoration:none;color:#140d1a;background:#d9b8f6;padding:15px 18px;font-size:12px;font-weight:800;transition:background .2s}
+.research-feature-link:hover,.research-feature-link:focus-visible{background:#f2e2ff}
+@media(max-width:780px){.research-feature{padding:25px 22px}.research-feature-content{flex-direction:column;align-items:start;gap:20px}.research-feature-link{flex-shrink:1}}
