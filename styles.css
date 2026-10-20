@@ -129,3 +129,49 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 @media(max-width:880px){.auri-study-head,.auri-study-main{grid-template-columns:1fr}.auri-study-intro{max-width:100%}.auri-notebook,.auri-family-register{padding:28px 26px}}
 @media(max-width:780px){.auri-study-inner{padding:60px 20px 68px}.auri-study-head{margin:36px 0}.auri-study h2{font-size:clamp(52px,10.8vw,72px)}.auri-research-foot{grid-template-columns:1fr;gap:16px}.auri-study-question p{font-size:21px}}
 @media(max-width:480px){.auri-study-index{gap:6px}.auri-log li{grid-template-columns:1fr;gap:6px}.auri-name-grid{grid-template-columns:1fr 1fr}.auri-name-grid li{font-size:10px}.auri-family-register h3{font-size:32px}.auri-notebook h3{font-size:28px}.auri-study-question{padding:18px 16px;gap:12px}}
+
+/* Family archive image-led layout, Oct 2026. Art files are required before merge. */
+.lab-project-showcase{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:27px;align-items:start;margin-top:50px}
+.llm-branch-art,.auri-lineage-art,.lumen-branch-art,.family-tree-centerpiece{margin:0;min-width:0}
+.llm-branch-art img,.auri-lineage-art img,.lumen-branch-art img,.family-tree-centerpiece img{display:block;width:100%;height:auto;object-fit:contain}
+.llm-branch-art a,.auri-lineage-art a,.lumen-branch-art a,.family-tree-centerpiece a{display:block;text-decoration:none}
+.llm-branch-art{border:1px solid rgba(183,107,243,.48);background:#050209;box-shadow:0 0 34px rgba(137,49,194,.12);overflow:hidden}
+.llm-branch-art figcaption,.auri-lineage-art figcaption,.family-tree-centerpiece figcaption{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:13px 19px;border-top:1px solid #49305e;font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.09em;color:#d5b3ee}
+.llm-branch-art figcaption span,.auri-lineage-art figcaption span{color:#aeb0c3}
+.lab-project-showcase .project-grid{display:grid;grid-template-columns:1fr;gap:13px;margin-top:0}
+.lab-project-showcase .project-card{min-height:0;padding:20px 23px;display:grid;grid-template-columns:72px 1fr;grid-template-areas:"top top" "emblem name" "emblem desc" "foot foot";gap:0 15px;align-items:center}
+.lab-project-showcase .project-top{grid-area:top;margin-bottom:10px}
+.lab-project-showcase .project-monogram{grid-area:emblem;margin:0;height:72px}
+.lab-project-showcase .project-card h3{grid-area:name;font-size:27px;margin:0 0 4px}
+.lab-project-showcase .project-card p{grid-area:desc;margin:0;min-height:0;max-width:none;font-size:12px;line-height:1.6}
+.lab-project-showcase .project-meta{grid-area:foot;margin-top:15px;padding-top:11px}
+.lab-project-showcase .aven-card{grid-column:auto}
+.family-tree-gallery{position:relative;background:#000;border-top:1px solid #2b193c;border-bottom:1px solid #2b193c;scroll-margin-top:12px}
+.family-tree-gallery:before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 47%,rgba(25,114,130,.1),transparent 58%)}
+.family-tree-gallery-inner{max-width:1140px;margin:auto;padding:75px 42px 86px;position:relative;text-align:center}
+.family-tree-topline{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:13px 0;border-top:1px solid #6a436c;color:#b8a3c4;font:600 10px/1.5 'DM Mono',monospace;letter-spacing:.14em;text-align:left}
+.family-tree-gallery h2{font:400 clamp(49px,5.4vw,77px)/1.14 'Playfair Display',Georgia,serif;letter-spacing:-.04em;margin:42px 0 16px}
+.family-tree-gallery h2 em{color:#d9a4f8;font-weight:400}
+.family-tree-gallery-inner>p{max-width:790px;margin:0 auto 36px;font-size:15px;line-height:1.9;color:#c2b4d2}
+.family-tree-centerpiece{max-width:760px;margin:0 auto;background:#000;border:1px solid #264d53;box-shadow:0 0 48px rgba(0,223,222,.14)}
+.family-tree-centerpiece figcaption{background:#03080b;justify-content:center;text-align:center;color:#86e4e8}
+.family-tree-study-link{display:inline-block;margin-top:29px;color:#dab6ff;font:600 12px 'DM Sans',sans-serif;text-underline-offset:5px}
+.auri-study-main{grid-template-columns:1fr 1fr;gap:23px;align-items:start}
+.auri-lineage-art{grid-column:1;grid-row:1;background:#030804;border:1px solid #477a40;box-shadow:0 0 30px rgba(56,228,91,.09)}
+.auri-lineage-art figcaption{border-top-color:#436f3b;color:#b3e89c}
+.auri-family-register{grid-column:2;grid-row:1}
+.auri-notebook{grid-column:1/-1;grid-row:2}
+.auri-log{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.auri-log li{display:block;padding:18px 0}
+.lumen-branch{border-top:1px solid #583c1d;border-bottom:1px solid #583c1d;background:#030201;scroll-margin-top:12px}
+.lumen-branch-inner{max-width:1300px;margin:auto;padding:74px 54px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.83fr);column-gap:56px;align-items:center}
+.lumen-branch-index{grid-column:1/-1;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid #8b642d;padding-top:14px;margin-bottom:34px;font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.12em;color:#f5c471}
+.lumen-branch-art{max-width:610px;border:1px solid #81521a;box-shadow:0 0 43px rgba(227,148,20,.12)}
+.lumen-branch-eyebrow,.lumen-branch-signoff{color:#e9ac47;font:600 10px/1.8 'DM Mono',monospace;letter-spacing:.12em}
+.lumen-branch h2{font:400 clamp(50px,5vw,73px)/1.16 'Playfair Display',Georgia,serif;letter-spacing:-.04em;margin:15px 0 28px}
+.lumen-branch h2 em{color:#f6bd55;font-weight:400}
+.lumen-branch-copy>p:not(.lumen-branch-eyebrow):not(.lumen-branch-signoff){color:#d2bfa3;font-size:15px;line-height:1.95}
+.lumen-branch-signoff{border-top:1px solid #544026;padding-top:22px;margin-top:34px}
+@media(max-width:1100px){.lab-project-showcase{gap:18px}.lab-project-showcase .project-card{padding:18px}.lab-project-showcase .project-card h3{font-size:24px}.lumen-branch-inner{padding:70px 30px;gap:30px}.auri-log{grid-template-columns:1fr 1fr}}
+@media(max-width:850px){.lab-project-showcase,.lumen-branch-inner,.auri-study-main{grid-template-columns:1fr}.llm-branch-art{max-width:640px;margin:auto}.lab-project-showcase .project-grid{grid-template-columns:1fr}.auri-lineage-art,.auri-family-register,.auri-notebook{grid-column:1;grid-row:auto}.auri-lineage-art{max-width:580px;margin:auto}.auri-log{grid-template-columns:1fr}.lumen-branch-art{width:100%;margin:auto}}
+@media(max-width:650px){.family-tree-gallery-inner{padding:57px 20px 65px}.family-tree-gallery-inner>p{font-size:13px}.lumen-branch-inner{padding:54px 20px}.lab-project-showcase .project-card{grid-template-columns:60px 1fr;gap:0 11px}.lab-project-showcase .project-card h3{font-size:24px}.lab-project-showcase .project-monogram,.lab-project-showcase .project-monogram img{width:60px;height:60px}.family-tree-topline{gap:6px}.llm-branch-art figcaption,.auri-lineage-art figcaption{font-size:9px}}
