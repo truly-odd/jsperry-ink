@@ -42,3 +42,13 @@
 .lab-sigil-image { display:inline-block; width:32px; height:32px; object-fit:contain; vertical-align:middle; margin-right:8px; filter:drop-shadow(0 0 10px rgba(25,230,224,.28)); }
 .bio-art .crest-frame img { mix-blend-mode:screen; }
 @media(max-width:470px) { .lab-sigil-image { width:26px; height:26px; margin-right:5px; } }
+
+/* BIO+SYNTH v0.3.1: true-black site canvas and artwork surroundings. */
+:root { --bg:#000; --bg2:#000; }
+html, body, .site-shell, .site-header, .bio-hero, .bio-art,
+.bio-art .crest-frame, .lab-art, .lab, .ticker, .connect, .footer {
+  background:#000;
+}
+.bio-hero .hero-glow, .lab::after { background:none; }
+.bio-art .crest-frame img { mix-blend-mode:normal; }
+@media(max-width:780px) { .nav { background:#000; } }
