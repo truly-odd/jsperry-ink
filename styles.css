@@ -52,3 +52,6 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 .bio-hero .hero-glow, .lab::after { background:none; }
 .bio-art .crest-frame img { mix-blend-mode:normal; }
 @media(max-width:780px) { .nav { background:#000; } }
+
+/* Solaris project identity: official SA emblem, matched to the Lyra crest card. */
+.solaris-monogram img { width:72px; height:72px; display:block; object-fit:contain; filter:drop-shadow(0 0 9px rgba(26,255,73,.20)) drop-shadow(0 0 10px rgba(255,22,166,.15)); }
