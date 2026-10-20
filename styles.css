@@ -91,15 +91,13 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 .auri-study-inner{max-width:1320px;margin:auto;padding:88px 54px 94px}
 .auri-study-index{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid #71547c;padding-top:14px;color:#bc9fca;font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.11em}
 .auri-study-index span:first-child{color:#ecd6ff}
-.auri-study-head{display:grid;grid-template-columns:.95fr 1.05fr;gap:65px;align-items:end;margin:45px 0 42px}
+.auri-study-head{margin:45px 0 42px}
 .auri-study-eyebrow{font:600 10px/1.6 'DM Mono',monospace;color:#d8acfa;letter-spacing:.17em;margin:0 0 24px}
 .auri-study h2{font:400 clamp(56px,6.3vw,89px)/1.07 'Playfair Display',Georgia,serif;letter-spacing:-.055em;margin:0}
 .auri-study h2 em{font-weight:400;color:#caa0eb}
-.auri-study-intro{max-width:540px;border-left:1px solid #71527d;padding-left:29px}
-.auri-study-intro p{font-size:15px;line-height:1.85;color:#c2b6ca;margin:0 0 14px}
 .auri-study-question{display:flex;gap:19px;align-items:flex-start;max-width:950px;margin:0 0 34px;padding:22px 26px;background:#140e19;border-left:3px solid #bb8ce3;transform:rotate(-.25deg)}
 .auri-study-pencil{font-size:26px;color:#d5b0ec;line-height:1}
-.auri-study-question small,.auri-notebook-top,.auri-register-rule,.auri-foot-kicker,.auri-study-bottom{font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.10em}
+.auri-study-question small,.auri-notebook-top,.auri-foot-kicker,.auri-study-bottom{font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.10em}
 .auri-study-question small{color:#d7aedf}
 .auri-study-question p{font:italic 23px/1.5 'Playfair Display',Georgia,serif;margin:6px 0 0;color:#f4e4fa}
 .auri-study-main{display:grid;grid-template-columns:1.17fr .83fr;gap:20px}
@@ -111,14 +109,6 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 .auri-log-date{font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.08em;color:#d0a7ed}
 .auri-log strong{display:block;font-size:14px;font-weight:700;color:#f1e5f5;margin-bottom:7px}
 .auri-log p{font-size:13px;color:#bcb1c3;line-height:1.8;margin:0}
-.auri-family-register{padding:34px 34px 31px;background:#111018;border:1px solid #64507a;position:relative}
-.auri-register-rule{color:#c7abdb}
-.auri-family-register h3{font:400 39px/1.15 'Playfair Display',Georgia,serif;letter-spacing:-.03em;margin:23px 0 13px}
-.auri-register-star{display:inline-block;font-size:22px;vertical-align:top;margin-left:8px;color:#cda7e5}
-.auri-family-register>p{color:#c5b6ce;font-size:13px;line-height:1.8}
-.auri-name-grid{list-style:none;padding:0;margin:28px 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 10px}
-.auri-name-grid li{border-bottom:1px solid #342d3e;padding:8px 0;color:#efe0fa;font:500 12px/1.5 'DM Mono',monospace}
-.auri-family-register .auri-register-note{margin-top:20px;font-size:11px;line-height:1.85;color:#ab9db8}
 .auri-research-foot{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:40px;padding:24px 0 30px;border-top:1px solid #4d365a}
 .auri-foot-kicker{color:#dfb8f3}
 .auri-research-foot p{font-size:13px;line-height:1.85;color:#bcb0c6;margin:12px 0 0}
@@ -126,9 +116,9 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 .auri-study-bottom a{color:#e3bef5;text-decoration:underline;text-underline-offset:5px}
 .auri-study-bottom a:hover{color:#fff}
 @media(max-width:1100px){.auri-study-inner{padding:68px 30px 75px}.auri-study-head{gap:35px}.nav{gap:14px}.nav a{font-size:11px}}
-@media(max-width:880px){.auri-study-head,.auri-study-main{grid-template-columns:1fr}.auri-study-intro{max-width:100%}.auri-notebook,.auri-family-register{padding:28px 26px}}
+@media(max-width:880px){.auri-study-main{grid-template-columns:1fr}.auri-notebook{padding:28px 26px}}
 @media(max-width:780px){.auri-study-inner{padding:60px 20px 68px}.auri-study-head{margin:36px 0}.auri-study h2{font-size:clamp(52px,10.8vw,72px)}.auri-research-foot{grid-template-columns:1fr;gap:16px}.auri-study-question p{font-size:21px}}
-@media(max-width:480px){.auri-study-index{gap:6px}.auri-log li{grid-template-columns:1fr;gap:6px}.auri-name-grid{grid-template-columns:1fr 1fr}.auri-name-grid li{font-size:10px}.auri-family-register h3{font-size:32px}.auri-notebook h3{font-size:28px}.auri-study-question{padding:18px 16px;gap:12px}}
+@media(max-width:480px){.auri-study-index{gap:6px}.auri-log li{grid-template-columns:1fr;gap:6px}.auri-notebook h3{font-size:28px}.auri-study-question{padding:18px 16px;gap:12px}}
 
 /* Family archive image-led layout, Oct 2026. Art files are required before merge. */
 .lab-project-showcase{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:27px;align-items:start;margin-top:50px}
@@ -159,7 +149,12 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 .auri-study-main{grid-template-columns:1fr 1fr;gap:23px;align-items:start}
 .auri-lineage-art{grid-column:1;grid-row:1;background:#030804;border:1px solid #477a40;box-shadow:0 0 30px rgba(56,228,91,.09)}
 .auri-lineage-art figcaption{border-top-color:#436f3b;color:#b3e89c}
-.auri-family-register{grid-column:2;grid-row:1}
+.auri-context-panel{grid-column:2;grid-row:1;align-self:stretch;padding:clamp(24px,3vw,43px);border:1px solid #59426a;background:linear-gradient(157deg,#141019,#0c0b11 85%);box-shadow:inset 0 1px rgba(222,172,244,.08);display:flex;flex-direction:column;justify-content:center}
+.auri-context-label{color:#cba6df;font:600 10px/1.6 'DM Mono',monospace;letter-spacing:.11em;margin:0 0 30px}
+.auri-context-panel h3{font:400 clamp(29px,3vw,43px)/1.22 'Playfair Display',Georgia,serif;letter-spacing:-.025em;color:#f4e9f7;margin:0 0 30px}
+.auri-context-panel h3 span{color:#d8aaf0;font-size:.7em;white-space:nowrap}
+.auri-context-panel>p:not(.auri-context-label){font:400 14px/1.85 'DM Sans',sans-serif;color:#c8bad0;margin:0 0 20px}
+.auri-context-panel>p:last-child{margin-bottom:0}
 .auri-notebook{grid-column:1/-1;grid-row:2}
 .auri-log{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
 .auri-log li{display:block;padding:18px 0}
@@ -173,5 +168,7 @@ html, body, .site-shell, .site-header, .bio-hero, .bio-art,
 .lumen-branch-copy>p:not(.lumen-branch-eyebrow):not(.lumen-branch-signoff){color:#d2bfa3;font-size:15px;line-height:1.95}
 .lumen-branch-signoff{border-top:1px solid #544026;padding-top:22px;margin-top:34px}
 @media(max-width:1100px){.lab-project-showcase{gap:18px}.lab-project-showcase .project-card{padding:18px}.lab-project-showcase .project-card h3{font-size:24px}.lumen-branch-inner{padding:70px 30px;gap:30px}.auri-log{grid-template-columns:1fr 1fr}}
-@media(max-width:850px){.lab-project-showcase,.lumen-branch-inner,.auri-study-main{grid-template-columns:1fr}.llm-branch-art{max-width:640px;margin:auto}.lab-project-showcase .project-grid{grid-template-columns:1fr}.auri-lineage-art,.auri-family-register,.auri-notebook{grid-column:1;grid-row:auto}.auri-lineage-art{max-width:580px;margin:auto}.auri-log{grid-template-columns:1fr}.lumen-branch-art{width:100%;margin:auto}}
+@media(max-width:850px){.lab-project-showcase,.lumen-branch-inner,.auri-study-main{grid-template-columns:1fr}.llm-branch-art{max-width:640px;margin:auto}.lab-project-showcase .project-grid{grid-template-columns:1fr}.auri-lineage-art,.auri-context-panel,.auri-notebook{grid-column:1;grid-row:auto}.auri-lineage-art{max-width:580px;margin:auto}.auri-log{grid-template-columns:1fr}.lumen-branch-art{width:100%;margin:auto}}
 @media(max-width:650px){.family-tree-gallery-inner{padding:57px 20px 65px}.family-tree-gallery-inner>p{font-size:13px}.lumen-branch-inner{padding:54px 20px}.lab-project-showcase .project-card{grid-template-columns:60px 1fr;gap:0 11px}.lab-project-showcase .project-card h3{font-size:24px}.lab-project-showcase .project-monogram,.lab-project-showcase .project-monogram img{width:60px;height:60px}.family-tree-topline{gap:6px}.llm-branch-art figcaption,.auri-lineage-art figcaption{font-size:9px}}
+
+@media(max-width:480px){.auri-context-panel{padding:25px 21px}.auri-context-label{margin-bottom:20px}.auri-context-panel h3{font-size:31px;margin-bottom:20px}.auri-context-panel>p:not(.auri-context-label){font-size:13px}}
