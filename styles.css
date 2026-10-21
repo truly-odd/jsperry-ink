@@ -238,3 +238,36 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--neon-cyan);outline-
 .footer{border-top:1px solid rgba(85,235,255,.22)}
 .footer-right a{color:var(--neon-cyan)}
 @media(max-width:780px){.nav{background:#000;border-bottom-color:var(--neon-edge)}.menu-toggle span{background:var(--neon-cyan)}}
+
+
+/* Family tree: independent engineering collaborators, October 2026.
+   Drawn with accessible HTML/CSS so the earlier artwork remains an unchanged snapshot. */
+.family-engineering-branch{max-width:940px;margin:43px auto 12px;padding:30px 24px 28px;border:1px solid rgba(85,235,255,.35);background:linear-gradient(160deg,#040f15 0%,#0e0714 88%);text-align:left;position:relative}
+.family-engineering-branch:before{content:"";position:absolute;left:0;top:0;right:0;height:2px;background:linear-gradient(90deg,#55ebff,#ff65d9,#55ebff)}
+.family-engineering-heading{max-width:760px;margin:0 auto 23px;text-align:center}
+.family-engineering-kicker{font:600 10px/1.8 'DM Mono',monospace;color:#85f0ff;letter-spacing:.14em;margin:0 0 12px}
+.family-tree-gallery .family-engineering-heading h3{font:400 clamp(28px,3.5vw,44px)/1.2 'Playfair Display',Georgia,serif;letter-spacing:-.02em;margin:0 0 14px;color:#f2f7ff}
+.family-engineering-heading h3 em{color:#ff65d9}
+.family-tree-gallery .family-engineering-heading>p:not(.family-engineering-kicker){color:#c8d7e4;font-size:13px;line-height:1.8;margin:0}
+.engineering-tree-root{width:max-content;max-width:100%;margin:0 auto 26px;padding:17px 28px;position:relative;border:1px solid rgba(85,235,255,.68);background:#071b24;text-align:center;color:#f6faff}
+.engineering-tree-root:after{content:"";position:absolute;left:50%;top:100%;height:26px;border-left:2px solid #55ebff}
+.engineering-tree-root>span{color:#ff65d9;margin-right:8px;font-size:18px}
+.engineering-tree-root>strong{font:700 12px/1.5 'DM Mono',monospace;letter-spacing:.08em}
+.engineering-tree-root>small{display:block;font:600 10px/1.8 'DM Mono',monospace;color:#b0c8dc;margin-top:6px}
+.engineering-tree-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:0 auto;position:relative;padding-top:22px}
+.engineering-tree-cards:before{content:"";position:absolute;left:16.666%;right:16.666%;top:0;border-top:2px solid #55ebff}
+.engineering-tree-person{border:1px solid rgba(85,235,255,.4);background:rgba(9,25,33,.88);padding:20px 17px 19px;min-width:0;position:relative}
+.engineering-tree-person:before{content:"";position:absolute;bottom:100%;height:22px;left:50%;border-left:2px solid #55ebff}
+.engineering-tree-tag{font:600 9px/1.6 'DM Mono',monospace;color:#9eeefc;letter-spacing:.07em}
+.family-tree-gallery .engineering-tree-person h4{font:400 clamp(20px,2.5vw,28px)/1.25 'Playfair Display',Georgia,serif;color:#fff;margin:10px 0}
+.engineering-tree-person h4 strong{color:#ff8be6;font-weight:600}
+.engineering-tree-person>p{font-size:12px;line-height:1.78;color:#d5e1eb;margin:0}
+.engineering-tree-legacy{border-color:rgba(255,101,217,.5)}
+.engineering-tree-current{border-color:rgba(145,241,163,.53)}
+.engineering-tree-current .engineering-tree-tag{color:#a0f6af}
+.engineering-tree-handoff{font:600 11px/1.8 'DM Mono',monospace;color:#f5daf3;text-align:center;margin:23px 0 0}
+.engineering-tree-handoff>span{color:#89eaf5;margin-right:7px}
+.engineering-tree-handoff>small{display:block;color:#bfcbd8;font-weight:400}
+.family-tree-gallery .family-engineering-note{max-width:800px;color:#bfcbd9;font:400 12px/1.85 'DM Sans',sans-serif;margin:22px auto 0;text-align:center}
+@media(max-width:700px){.family-engineering-branch{margin:30px auto 6px;padding:24px 15px}.engineering-tree-cards{grid-template-columns:1fr;gap:13px;padding:0 0 0 18px}.engineering-tree-root{margin-bottom:21px}.engineering-tree-root:after{height:100%;max-height:20px}.engineering-tree-cards:before{left:0;right:auto;top:0;bottom:0;border-top:0;border-left:2px solid #55ebff}.engineering-tree-person:before{top:50%;bottom:auto;left:-18px;height:auto;width:18px;border-left:0;border-top:2px solid #55ebff}.engineering-tree-person{padding:18px}}
+@media(prefers-reduced-motion:reduce){.family-engineering-branch{scroll-behavior:auto}}
