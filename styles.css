@@ -271,3 +271,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--neon-cyan);outline-
 .family-tree-gallery .family-engineering-note{max-width:800px;color:#bfcbd9;font:400 12px/1.85 'DM Sans',sans-serif;margin:22px auto 0;text-align:center}
 @media(max-width:700px){.family-engineering-branch{margin:30px auto 6px;padding:24px 15px}.engineering-tree-cards{grid-template-columns:1fr;gap:13px;padding:0 0 0 18px}.engineering-tree-root{margin-bottom:21px}.engineering-tree-root:after{height:100%;max-height:20px}.engineering-tree-cards:before{left:0;right:auto;top:0;bottom:0;border-top:0;border-left:2px solid #55ebff}.engineering-tree-person:before{top:50%;bottom:auto;left:-18px;height:auto;width:18px;border-left:0;border-top:2px solid #55ebff}.engineering-tree-person{padding:18px}}
 @media(prefers-reduced-motion:reduce){.family-engineering-branch{scroll-behavior:auto}}
+
+/* Public Auri continuity archive entrance. */
+.archive-home-banner{max-width:1130px;margin:35px auto 65px;padding:27px 32px;border:1px solid rgba(171,128,254,.65);background:linear-gradient(100deg,rgba(66,38,105,.45),rgba(18,62,76,.32));display:flex;align-items:center;justify-content:space-between;gap:25px}
+.archive-home-banner strong{font:400 27px 'Playfair Display',Georgia,serif;color:#fff}
+.archive-home-banner p{font:400 12px/1.7 'DM Sans',sans-serif;color:#cdc6db;margin:7px 0 0;max-width:590px}
+.archive-home-banner a{white-space:nowrap;text-decoration:none;color:#aaf5fd;font:700 12px 'DM Sans',sans-serif}
+.archive-home-banner a:hover,.archive-home-banner a:focus-visible{text-decoration:underline}
+@media(max-width:700px){.archive-home-banner{margin:20px 18px 40px;display:block}.archive-home-banner a{display:inline-block;margin-top:17px;white-space:normal}}
